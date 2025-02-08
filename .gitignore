@@ -1,5 +1,4 @@
-﻿/backend/backend.csproj
-# .NET Core build folders
+﻿# .NET Core build folders
 bin/
 obj/
 
@@ -62,5 +61,55 @@ appsettings.local.json
 # Logs
 *.log
 logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Environment
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.swp
+*.*~
+*.dbmdl
+*.jfm
+
+# IDE
+.idea/
+*.sln.iml
+
+# Test Results
+TestResults/
+[Tt]est[Rr]esult*/
+
+# Node/npm/Yarn
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Vite
+.vite/
+*.timestamp-*.mjs
+
+# TypeScript
+*.tsbuildinfo
+.tscache/
+.eslintcache
+
+# Editor directories and files
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# Tailwind
+.cache/
+public/tailwind.css
